@@ -1,3 +1,10 @@
-h1 {
-    color : green ;
-}
+h1 {color : green ;}
+
+.index {width: 30%; height: 300%; margin: 10px; background-color: #eeeeee;}
+.content {width: 70%; height: 100%;}
+#all {display: flex; flex-direction: row;}
+
+h1 {font-size: 32px;}
+h2 {font-size: 24px;}
+h3 {font-size: 18px;}
+a {font-size: 16px;}
