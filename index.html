@@ -6,12 +6,20 @@
   <link rel="stylesheet" href="./css/index.css">
  </head>
  <body><div id="all"><div class="index">
-  <h2>TITLE</h2><ul>
+  <div id="index_url"><a href="./index.html">TITLE</a></div><ul>
   <li><a href="./page1.html">Pg1</a></li>
   <li><a href="./page2.html">Pg2</a></li>
   <li><a href="./page3.html">Pg3</a></li></ul>
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
-  <div class="content"><h1>チームで作成するWebサイトです</h1><br>
+  <div class="content"><button id="toggleMenu">≡ Menu</button>
+  <script>document.addEventListener('DOMContentLoaded', function () {
+   const button = document.getElementById('toggleMenu');
+   const menu = document.querySelector('.index');
+   const content = document.querySelector('.content');
+   button.addEventListener('click', function () {
+   menu.classList.toggle('hidden');
+   content.classList.toggle('expanded');});});</script>
+  <h1>チームで作成するWebサイトです</h1><br>
   <p>内容はこれから書きます</p>
  </div></div></body>
 </html>
