@@ -11,7 +11,7 @@
   border-left: double 4px #ff9999;
   border-bottom: solid 2px #ff9999;
   background-color: #cceeff;}
-.index a {text-decoration: none; color: #0000ff; transition: font-size .2s;}
+.index a {text-decoration: none; color: #0000ff; font-size: 16px; transition: font-size .2s;}
 .index a:hover {font-size: 22px; animation: bl .75s infinite;}
 @keyframes bl {0%, 100% {color: blue;}50% {color: red;}}
 
