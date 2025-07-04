@@ -1,1 +1,16 @@
 .desc {color: #0066ff;}
+
+th, .f {background-color: #aaffff; padding: 5px 15px; text-align: center;}
+td {background-color: #eeeeee; padding: 5px 15px; text-align: center;}
+
+.hvimg {position: relative; cursor: pointer; display: inline-block;}
+
+.hvimg img {position: absolute; top: 120%; left: 50%;
+  transform: translateX(-50%); width: 100px;
+  border: 1px solid #cccccc; border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  opacity: 0; visibility: hidden;
+  transition: opacity 0.3s; z-index: 100;
+}
+
+.hvimg:hover img {opacity: 1;visibility: visible;}
